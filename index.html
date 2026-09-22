@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="ms">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pengurus Tugas</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Pengurus Tugas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<ody>
-	<div class="container">
-		<h2>Senarai Tugas</h2>
-		<div class="input-container">
-			<input type="texxt" id="taskinputt" placeholder="Tambah tugas baru...">
-			<button id="addBtn">Tambah</button>
-			</div>
+<body>
+  <div class="container">
+    <h2>Senarai Tugas Saya</h2>
+    <div class="input-container">
+      <!-- Pastikan id="taskInput" tepat begini -->
+      <input type="text" id="taskInput" placeholder="Tambah tugas baru...">
+      
+      <!-- Pastikan id="addBtn" tepat begini -->
+      <button id="addBtn">Tambah</button>
+    </div>
+    
+    <!-- Pastikan id="taskList" tepat begini -->
     <ul id="taskList"></ul>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
